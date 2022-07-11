@@ -1,0 +1,41 @@
+h1 {
+    margin: 0;
+    color: red;
+}
+
+h2 {
+    margin: 0;
+    color: green;
+    text-align: right;
+}
+
+h3{
+    text-align: center;
+    color: blue;
+}
+
+h4{
+    text-align: center;
+    color: blue;
+}
+
+.left-justified{
+    text-align: left;
+    font-style: italic;
+    color: darkturquoise;
+    border:2px solid royalblue;
+}
+
+.center-justified{
+    text-align: center;
+    font-weight: bold;
+    color: darkolivegreen;
+    border:3px dotted coral;
+}
+
+#right-justified{
+    text-align: right;
+    font-size: large;
+    color: darkmagenta;
+    border:4px dashed yellow;
+}

@@ -1,0 +1,47 @@
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+ul.horizontal {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+ul.horizontal li a.active {
+    background-color: purple;
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal li a:hover {
+    background-color: yellow;
+}
+
+.unorderBorder_list {
+    border: 6px solid blue;
+    width: 10%;
+    padding: 5px;
+    background-color: lightblue;
+}
+
+.orderBorder_list {
+    border: 6px solid green;
+    width: 10%;
+    padding: 5px;
+    background-color: lightgreen;
+}
+
