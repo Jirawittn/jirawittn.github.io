@@ -1,1 +1,1 @@
-My Personal web site is at and its index.html is at
+My Personal web site is at https://jirawittn.github.io/ and its index.html is at https://github.com/Jirawittn/jirawittn.github.io
