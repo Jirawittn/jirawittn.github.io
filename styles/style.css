@@ -5,6 +5,7 @@ body {
     }
 
 .background {
+    text-align: center;
     width: 1000px;
     margin: 0 auto;
     background-color: #E8E8A0;
