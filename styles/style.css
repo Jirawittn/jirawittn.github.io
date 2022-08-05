@@ -1,40 +1,9 @@
-/* p {
-    color: red;
-} */
-
-/* ul {
-    font-size: 16px;
-    font-weight: bold;
-} */
-
-/* p, li, h1 {
-    color: red;
-} */
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: center;
-}
-
-html {
-    font-size: 18px;
-    background-color: #71E471;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1 {
-    font-size: 60px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    color: #4949D4;
-    text-shadow: 3px 3px 1px black;
-}
-
 body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #71E471
+    }
+
+.background {
     width: 1000px;
     margin: 0 auto;
     background-color: #E8E8A0;
@@ -42,60 +11,57 @@ body {
     border: 5px solid black;
 }
 
-img {
+.header {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    color: #4949D4;
+    text-shadow: 3px 3px 1px black;
+}
+
+.image{
+    text-align: center;
+    flex: 70%;
     display: block;
     margin: 0 auto;
     margin-bottom: 5px;
     margin-top: 10px;
+    width: 50%;
+    height: 50%;
 }
 
-p, li {
+.main {
+    text-align: left;
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
-}
-
-.my_course {
-    font-size: 60px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    color: #4949D4;
-    text-shadow: 3px 3px 1px black;
 }
 
 .popular{
     border:dotted;
     border-color: red;
     border-width: 4px;
+    padding: 5px;
 }
 
-@media (orientation: landscape) and (max-width: 2040px) {
-    p, li {
-        color: black;
-        font-size: 25px;
-        line-height: auto;
-        letter-spacing: auto;
+@media screen and (max-width: 700px) {
+    .background {
+        width: auto;
+        margin: auto;
+    }
+    
+
+    .header {
+        font-size: 20px;
+        margin: auto;
     }
 
-    img {
-        max-width: fit-content;
-        height: fit-content;
-        object-fit: contain;
-    }
-}
-
-@media (orientation: Portrait) and (min-width: 2040px) {
-    p, li {
-        color: white;
+    .main {
         font-size: 15px;
-        line-height: auto;
-        letter-spacing: auto;
     }
 
-    img {
-        max-width: fit-content;
-        height: fit-content;
-        object-fit: contain;
+    .image{
+        width: 100%;
+        height: auto;
     }
 }
